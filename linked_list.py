@@ -57,6 +57,9 @@ class ListNode:
 		self.data = data 
 		self.next = None
 		
+	def get_data(self):
+		return self.data
+		
       
 
 

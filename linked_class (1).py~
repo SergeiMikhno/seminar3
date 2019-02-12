@@ -18,7 +18,7 @@ class Stack:
 			self.my_stack.remove(self.my_stack.head.get_data())
 			return data
 				
-		print("The stack contains no items!")
+		print("Стек не содержит элементов!")
 		return ""
 			
 		
@@ -30,5 +30,5 @@ class Stack:
 		if not self.isEmpty():
 			return self.my_stack.head.get_data()
 				
-		print("The stack contains no items!")
+		print("Стек не содержит элементов!")
 		return ""
